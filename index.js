@@ -1,5 +1,3 @@
-import './style.css';
-
 let weatherLocation = 'Joinville';
 let weatherUrl;
 let response;
