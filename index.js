@@ -19,7 +19,7 @@ let unit = document.querySelector('.unit');
 
 
 async function getWeatherData() {
-  weatherUrl = `http://api.openweathermap.org/data/2.5/weather?q=${weatherLocation}&units=metric&APPID=ffa34782bdb5411f0f4c854704f8f566`
+  weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${weatherLocation}&units=metric&APPID=ffa34782bdb5411f0f4c854704f8f566`
 
   response = await (await fetch(weatherUrl, {mode: 'cors'})).json();
   console.log(response);
