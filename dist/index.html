@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Getting Started</title>
+    <link rel="stylesheet" href="../src/style.css">
+    <script src="bundle.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-wrapper">
+        <div class="logo">Weather forecast</div>
+        <form action="">
+          <input type="text" name="Location" placeholder="Search City" class="location-input">
+          <button type="submit" class="submit-form">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1664 1664"><path fill="currentColor" d="M1152 704q0-185-131.5-316.5T704 256T387.5 387.5T256 704t131.5 316.5T704 1152t316.5-131.5T1152 704zm512 832q0 52-38 90t-90 38q-54 0-90-38l-343-342q-179 124-399 124q-143 0-273.5-55.5t-225-150t-150-225T0 704t55.5-273.5t150-225t225-150T704 0t273.5 55.5t225 150t150 225T1408 704q0 220-124 399l343 343q37 37 37 90z"/></svg>          </button>
+        </form>
+        <div class="unit">°C</div>
+      </div>
+    </header>
+    <div class="main">
+      <div class="main-wrapper">
+        <div class="bubble-1">
+          <div class="location-name"></div>
+          <div class="weather-info">
+          <div class="left-content">
+            <div class="avg-temp"></div>
+          </div>
+          <div class="right-content">
+            <div class="description"></div>
+            <div class="feels-like"></div>
+            <div class="min-temp"></div>
+            <div class="max-temp"></div>            
+            <div class="humidity"></div>
+            <div class="wind"></div>
+            <div class="sunrise"></div>
+            <div class="sunset"></div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    
+  </body>
+</html>
